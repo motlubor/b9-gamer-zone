@@ -167,6 +167,11 @@ font-weight: 600px;
     gap: 16px;
 }
 
+.game-type2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
 
 .game{
     display: flex;
@@ -176,7 +181,10 @@ font-weight: 600px;
 .game-name{
     margin-left: 16px;
 }
-
+.g1{
+    position: relative;
+    left: 90px;
+}
 
 
 
@@ -280,4 +288,20 @@ font-weight: 600px;
     width: 80%;
     margin: auto;
 }
+.game-type1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 }
