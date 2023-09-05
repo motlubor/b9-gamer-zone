@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 6em;
+    padding-bottom: 3em;
+}
+
+.header-gamer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-gamer h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-left: 1.5em;
+    margin-top: 2em;
+}
+
+.header-gamer img {
+    margin-left: 1.5em;
+    margin-top: 5em;
+}
+
+.pink-text {
+    color: #FF42A5;
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2.5em;
+    margin-top: 5em;
+    font-size: 1.3em;
+    list-style-type: none;
+}
+
+.header-nav ul>li:hover {
+    border: 0;
+    border-radius: 2em;
+    padding: 0.2em 0.3em;
+    background-color: rgba(11, 2, 35, 0.10);
+    ;
+}
+
+.header-nav ul>li>a {
+    text-decoration: none;
+    color: #3C354F;
+}
+
+.svg {
+    margin: 0.5em;
+    text-align: center;
+}
+
+/* ======================= Banner Section ======================  */
+
+.banner{
+        display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("../images/group14.png");
+
+}
+
+.banner-description h2{
+    
+font-size: 2em;
+font-weight: 600;
+    }
+    .banner-description p{
+        font-size: 1.4em;
+    }
+
+.goat {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     font-size: 5em;
+    font-weight: 800;
+    margin: 0.2em 0;
+}
+
+.pink-btn{
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);;
+    color: #ffff;
+    border: 0;
+    padding: 1em 2em;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 10px;
+    border-radius: 0.5em;
+}
+
+.blue-btn{
+    background: #4EC5F7;
+    color: #ffff;
+    border: 0;
+    padding: 1em 2em;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 3em 1em;
+    border-radius: 0.5em;
+}
+
+/* ============== funny videos section =========== */
+
+.video-description{
+    text-align: center;
+    margin-top: 50px;
+}
+.video-description h2{
+font-size: 40px;
+margin-bottom: 10px;
+font-weight: 600px;
+}
+
+
+.games-video{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-start: auto;
+    gap: 1em;
+    margin: 50px 15px;
+}
+.games-video img{
+    width: 97%;
+}
+/* ======================= instant play ===================== */
+
+.instant-play{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+.instant-description{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.instant-description h2{
+    font-size: 40px;
+}
+.relative-image{
+    position: relative;
+    top: -280px;
+    right: 100px;
+}
+
+/* ============== game type section =============================  */
+
+
+.game-type1{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+}
+
+
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-name{
+    margin-left: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================= responsive section ===========================  */
+
+@media screen and (max-width: 576px) {
+
+    header,.header-nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .banner{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .banner img{
+        width: 100%;
+    }
+
+.goat{
+    font-size: 2em;
+}
+
+.pink-btn{
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);;
+    color: #ffff;
+    border: 0;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 10px;
+    border-radius: 0.5em;
+}
+.blue-btn{
+    background: #4EC5F7;
+    color: #ffff;
+    border: 0;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 3em 1em;
+    border-radius: 0.5em;
+}
+.banner-description{
+    width: 80%;
+    margin: auto;
+}
+.games-video{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr)
+}
+.video-description h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600px;
+    }
+
+    .instant-play{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+.instant-play img{
+    width: 100%;
+    
+}
+
+.rel-img{
+    width: 50%;
+}
+
+.relative-image{
+   
+    position: relative;
+    top: -130px;
+    right: 20px;
+    
+}
+
+.instant-image{
+    width: 80%;
+    margin: auto;
+}
+}
