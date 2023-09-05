@@ -291,8 +291,16 @@ font-weight: 600px;
 .game-type1{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
 }
 
+.game h5{
+    font-size: 12px;
+}
+.g1{
+    position: relative;
+    left: 1px;
+}
 
 
 
