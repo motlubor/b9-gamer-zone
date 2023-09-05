@@ -178,6 +178,12 @@ font-weight: 600px;
     justify-content: center;
     align-items: center;
 }
+
+.game:hover{
+    border: 2px solid    #F948B2;
+    border-radius: 20px;
+}
+
 .game-name{
     margin-left: 16px;
 }
