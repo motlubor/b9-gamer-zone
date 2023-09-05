@@ -258,7 +258,7 @@ footer{
 
 
 
-/* ============================= responsive section ===========================  */
+/* ============================= responsive section for mobile device ===========================  */
 
 @media screen and (max-width: 576px) {
 
@@ -384,6 +384,14 @@ footer{
 
 
 
+}
 
 
+
+
+/* responsive for medium device  */
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+
+    
 }
