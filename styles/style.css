@@ -187,6 +187,35 @@ font-weight: 600px;
 }
 
 
+/* =======================footer section ======================= */
+
+footer{
+    background-color:  #0B0223;
+    color: #FFF;
+    margin-top: 100px;
+    padding-bottom: 80px;
+}
+.footer-a{
+    width: 55%;
+    margin: auto;
+    margin-top: 45px;
+}
+.footer-a a{
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px 20px;
+}
+
+.f-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-icon p{
+    padding: 8px 10px;
+    margin-left: 15px;
+    margin-top: 50px;
+}
 
 
 
